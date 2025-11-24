@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Saucedemo Automation Test Suite" parallel="false">
+    <listeners>
+        <listener class-name="com.sauceyyyy.listeners.TestListener"/>
+    </listeners>
+
+    <test name="Login Tests">
+        <classes>
+            <class name="com.sauceyyyy.LoginTests"/>
+        </classes>
+    </test>
+
+    <test name="Products Tests">
+        <classes>
+            <class name="com.sauceyyyy.ProductsTests"/>
+        </classes>
+    </test>
+
+    <test name="Cart Tests">
+        <classes>
+            <class name="com.sauceyyyy.CartTests"/>
+        </classes>
+    </test>
+
+    <test name="ProductDetail Tests">
+        <classes>
+            <class name="com.sauceyyyy.ProductDetailTests"/>
+        </classes>
+    </test>
+
+    <test name="Checkout Tests">
+        <classes>
+            <class name="com.sauceyyyy.CheckoutTests"/>
+        </classes>
+    </test>
+
+    <test name="Order Confirmation Tests">
+        <classes>
+            <class name="com.sauceyyyy.OrderConfirmationTests"/>
+        </classes>
+    </test>
+
+</suite>

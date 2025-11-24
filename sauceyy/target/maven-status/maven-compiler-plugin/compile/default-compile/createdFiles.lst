@@ -1,0 +1,6 @@
+com\sauceyyyy\Main.class
+com\sauceyyyy\utils\TestData.class
+com\sauceyyyy\pages\MenuPage.class
+com\sauceyyyy\utils\WaitUtils.class
+com\sauceyyyy\pages\ProductDetailPage.class
+com\sauceyyyy\pages\CartPage.class
